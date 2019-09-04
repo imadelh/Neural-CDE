@@ -7,7 +7,7 @@ Live version : https://nn-cde.imadelhanafi.com
 Blog post (for math details) : 
 
 
-**Important**: It is advised to run the code locally and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time. The service is hosted on 1 machine (no $$ for a load balancer) with the ability to train 4models concurrently. 
+**Important**: It is advised to run the code localy and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time since the service is hosted on just 1 machine (no $$ for a cluster with a load balancer). 
 
 
 --- Add figure3
