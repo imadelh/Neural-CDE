@@ -3,6 +3,7 @@
 This project create a dashboard to simulate observations (x,y) from a joint distribution p(x,y) and train neural networks to estimate the conditional density p(y/x) (with access to hyper-parameters and training live). 
 
 Live version : https://nn-cde.imadelhanafi.com 
+
 Blog post (for math details) : 
 
 
@@ -50,7 +51,7 @@ The deployed version contains 3 tabs. Code for each tab is provided in a separat
 - Tab3: Conditional Density Estimation with Neural Networks (MDN): `scripts/nn_cde.py`
 
 
-Additionally **Mixture density netwroks** `scripts/mdn.nn` can be used indepently from the project for any kind of data (small changes on the input shape of the network are needed).
+Additionally, **Mixture density netwroks** `scripts/mdn.nn` can be used indepently from the project for any kind of data (small changes on the input shape of the network are needed).
 
 
 [More documentation is needed, but the code follows the logic explained in the blog post]
