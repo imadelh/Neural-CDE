@@ -1,9 +1,10 @@
 # Interactive Conditional Density Estimation with Neual Network
 
-This project create a dashboard to simulate density of observations (x,y) and train neural networks to estimate the conditional density p(y/x) (with aceess to hyper-parameters and training live). 
+This project create a dashboard to simulate observations (x,y) from a joint distribution p(x,y) and train neural networks to estimate the conditional density p(y/x) (with access to hyper-parameters and training live). 
 
-Blog post (for math details) : 
 Live version : https://nn-cde.imadelhanafi.com 
+Blog post (for math details) : 
+
 
 **Important**: It is advised to run the code locally and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time. The service is host on 1 machine (8vCPU with 8GB memory) with the ability to train 4models concurrently. 
 
@@ -57,7 +58,7 @@ Additionally **Mixture density netwroks** `scripts/mdn.nn` can be used indepentl
 
 # Contributions 
 
-Contributions are welcome. If you have ideas about adding new features or support other functionalities, please leave a comment or open a PR. If you wish to host the project on your own servers with more options and computing power (more data, possibility to upload user’s data and train on it, variety of neural networks) Please don’t hesitate to contact me and we can set up the service together. 
+Contributions are welcome. If you have ideas about adding new features or support other functionalities, please leave a comment or open a PR. If you wish to host the project on your own servers with more options and computing power (more data, possibility to upload user’s data and train CDE on it, variety of neural networks) please don’t hesitate to contact me and we can set up the service together. 
 
 
 ---
