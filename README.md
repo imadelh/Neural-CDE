@@ -7,7 +7,7 @@ Live version : https://nn-cde.imadelhanafi.com
 Blog post (for math details) : 
 
 
-**Important**: It is advised to run the code locally and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time. The service is host on 1 machine (8vCPU with 8GB memory) with the ability to train 4models concurrently. 
+**Important**: It is advised to run the code locally and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time. The service is hosted on 1 machine (8vCPU with 8GB memory) with the ability to train 4models concurrently. 
 
 
 --- Add figure3
