@@ -2,9 +2,9 @@
 
 This project create a dashboard to simulate observations (x,y) from a joint distribution p(x,y) and train neural networks to estimate the conditional density p(y/x) (with access to hyper-parameters and training live). 
 
-Live version : https://nn-cde.imadelhanafi.com 
+Live version: https://nn-cde.imadelhanafi.com 
 
-Blog post (for math details) : 
+Blog post (for math details): https://imadelhanafi.com/posts/conditional_density_estimation_nn/
 
 
 **Important**: It is advised to run the code localy and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time since the service is hosted on just 1 machine (no $$ for a cluster with a load balancer). 
