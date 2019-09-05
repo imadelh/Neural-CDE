@@ -18,13 +18,13 @@ Blog post (for math details): https://imadelhanafi.com/posts/conditional_density
 
 A docker image to run the whole project provided. 
 
-Clone the repo and lunch the docker container 
+Clone the repo and launch the docker container
 
 ```
 sudo docker run -it --rm -v ~/bokeh:/app -p 8888:8888 imadelh/pytorch_bokeh_server:v1 bash
 ```
 
-Then you can run the Bokeh server using one the following commands 
+Then you can run the Bokeh server using one the following commands and you can access the app on localhost:8888.
 
 ```
 # For testing/dev 
