@@ -9,11 +9,10 @@ Blog post (for math details): https://imadelhanafi.com/posts/conditional_density
 
 **Important**: It is advised to run the code localy and don't rely on the live version as it is just for illustration purpose only. There may be some performance issues when multiple users are training models on the same time since the service is hosted on just 1 machine (no $$ for a cluster with a load balancer). 
 
-<a href="https://imadelhanafi.com/posts/conditional_density_estimation_nn/" target="_blank">
 <p align="center">
   <img src="https://imadelhanafi.com/img/cde.png" title="figure">
 </p>
-</a>
+
 
 # Running on your laptop/server
 
