@@ -26,7 +26,7 @@ def app(doc):
     doc.title = "Conditional Density Estimation - by Imad El"
 
 
-server = Server({"/": app}, num_procs=2, port=8889)
+server = Server({"/": app}, num_procs=2, port=8888)
 server.start()
 
 if __name__ == "__main__":
