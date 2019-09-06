@@ -87,7 +87,7 @@ def nn():
 
     # Simulation of GMM
 
-    ctl_title = Div(text="<h3>Simulator</h3>")
+    ctl_title = Div(text="<h3>1 - Simulator</h3>")
     div1 = Div(
         text="""<p style="border:3px; border-style:solid; border-color:grey; padding: 1em;">
                     Hyperparameters of bi-GMM components (refer to the blog post for details)<br />  
@@ -140,7 +140,7 @@ def nn():
 
     ### MDN
 
-    mdn_title = Div(text="<h3>MDN Training </h3>")
+    mdn_title = Div(text="<h3>2 - MDN Training </h3>")
     mdn_text = Div(text="Choose training parameters")
 
     n_gaussians = Slider(
@@ -150,7 +150,7 @@ def nn():
     n_layers = Slider(title="Number of hidden layers", value=1, start=1, end=3, step=1)
 
     n_hidden = Slider(
-        title="Size of hidden neurons", value=20, start=5, end=10, step=1
+        title="Size of hidden neurons", value=15, start=5, end=20, step=1
     )
 
     dropout = Slider(
@@ -181,7 +181,7 @@ def nn():
     # Plot of p(y/x)
 
     fit_title = Div(
-        text="<h3>Plot Conditional Distribution P(y/x=X) </h3> - You can plot the real p(y/x) after simulating data. <br /> - You can plot estimated p(y/x) after taining the model."
+        text="<h3>3 - Plot Conditional Distribution P(y/x=X) </h3> - You can plot the real p(y/x) after simulating data. <br /> - You can plot estimated p(y/x) after taining the model."
     )
 
     at_X = TextInput(title="X", value="1.0")

@@ -64,7 +64,7 @@ def kde():
 
     # Plot Control Buttons
 
-    ctl_title = Div(text="<h3>Simulator</h3>")
+    ctl_title = Div(text="<h3>1 - Simulator</h3>")
     dist_type = Select(
         title="Select sampling distribution:",
         value="Gaussian",
@@ -103,7 +103,7 @@ def kde():
     # plot_ctls = column(ctl_title, div1, plot_sim)
 
     ### Manual Fitting
-    fit_title = Div(text="<h3>Manual KDE</h3>")
+    fit_title = Div(text="<h3>2 - Manual KDE</h3>")
 
     kernel = Select(
         title="Select kernel to fit on data:",
@@ -118,7 +118,7 @@ def kde():
 
     ### Cross Validation fit
     fit_title = Div(
-        text="<h3>Cross Validation - Params Search</h3> <br /> Select kernels for parameter search."
+        text="<h3>3 - Cross Validation - Params Search</h3> <br /> Select kernels for parameter search."
     )
 
     kernels = CheckboxButtonGroup(

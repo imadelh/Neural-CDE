@@ -50,7 +50,7 @@ def mle():
 
     # Plot Control Buttons
 
-    ctl_title = Div(text="<h3>Simulator</h3>")
+    ctl_title = Div(text="<h3>1 - Simulator</h3>")
     dist_type = Select(
         title="Select sampling distribution:",
         value="Gaussian",
@@ -88,7 +88,7 @@ def mle():
 
 
     ### MLE fitting parameters
-    fit_title = Div(text="<h3>Maximum Likelihood Estimation</h3>")
+    fit_title = Div(text="<h3>2 - Maximum Likelihood Estimation</h3>")
 
     dist_fit = Select(
         title="Select distribution to fit on data:",
