@@ -1,6 +1,6 @@
 # Interactive Conditional Density Estimation with Neual Network
 
-This project create a dashboard to simulate observations (x,y) from a joint distribution p(x,y) and train neural networks to estimate the conditional density p(y/x) (with access to hyper-parameters and training live). 
+This project creates a dashboard to simulate observations (x,y) from a joint distribution p(x,y) and train neural networks to estimate the conditional density p(y/x) (with access to hyper-parameters and training live). 
 
 Live version: https://nn-cde.imadelhanafi.com 
 
