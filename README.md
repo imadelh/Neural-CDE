@@ -21,7 +21,7 @@ A docker image to run the whole project provided.
 Clone the repo and launch the docker container
 
 ```
-sudo docker run -it --rm -v ~/bokeh:/app -p 8888:8888 imadelh/pytorch_bokeh_server:v1 bash
+sudo docker run -it --rm -v **Directory of Neural-CDE**:/app -p 8888:8888 imadelh/pytorch_bokeh_server:v1 bash
 ```
 
 Then you can run the Bokeh server using one the following commands and you can access the app on localhost:8888.
