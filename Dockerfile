@@ -7,4 +7,4 @@ ADD . $HOME
 
 EXPOSE 8888
 
-CMD bokeh serve --show bokeh_server.py --port 8888 --num-procs 2
+CMD bokeh serve --show bokeh_server.py --port 8888 --num-procs 2 --allow-websocket-origin=*
